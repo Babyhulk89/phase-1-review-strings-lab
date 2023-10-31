@@ -1,5 +1,7 @@
 require ( './helpers.js' );
 
+const currentUser = 'Grace Hopper';
+
 describe('index.js', () => {
   describe('currentUser', () => {
     it('is defined', () => {
